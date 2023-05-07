@@ -311,10 +311,9 @@ body {
   
 } 
 
-.header-contact list{
+.header-contact-list{
   gap: 40px;
 }
-
 .contacts-address:hover,
 .contacts-address:focus {
   color: #404bbf;
