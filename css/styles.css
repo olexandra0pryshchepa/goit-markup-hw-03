@@ -344,6 +344,7 @@ body {
 .main-header{
   border-bottom: 1px solid #e7e9fc;
   display: flex;
+  padding: 24px 0;
 }
 
 .main-header-container{
@@ -357,7 +358,7 @@ body {
 }
 
   
-.navigation-list-item{
+.navigation-link{
     padding: 24px 0;
 }
 .header-contact {
