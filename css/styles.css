@@ -355,7 +355,7 @@ body {
 .navigation-list{
   gap: 40px;
   display: flex;
-    align-items: center;
+   
 
 }
 .navigation-list-item{
