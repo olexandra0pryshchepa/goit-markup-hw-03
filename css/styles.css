@@ -349,14 +349,16 @@ body {
 .main-header-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-
+.header-contact-list{
+  gap: 40px;
+}
 
   
 .navigation-list-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 .header-contact {
   margin-left: 40px;
@@ -447,7 +449,6 @@ body {
   padding-bottom: 120px;
 }
 .section-actions{
-  padding-top: 120px; 
   padding-bottom: 120px;
 }
 
