@@ -311,9 +311,7 @@ body {
   
 } 
 
-.header-contact-list{
-  gap: 40px;
-}
+
 .contacts-address:hover,
 .contacts-address:focus {
   color: #404bbf;
@@ -365,9 +363,10 @@ body {
 }
 
 .header-contact{
+  gap: 40px;
    display: flex;
     align-items: center;
-    gap: 40px;
+  
 }
  .title-list-item{
    width: calc((100% - 48px) / 3);
