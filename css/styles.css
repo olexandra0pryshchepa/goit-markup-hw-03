@@ -385,7 +385,7 @@ body {
 }
 .list{
     display: flex;
-    gap: 24px;
+    gap: 40px;
 }
 
 .advantages-list{
