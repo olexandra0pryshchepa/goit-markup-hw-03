@@ -304,7 +304,7 @@ body {
   color: #434455;
 } 
 
-.contact-item:not(:last-child){
+.navigation-list-item:not(:last-child){
     margin-right: 40px;
 }
 
@@ -352,17 +352,13 @@ body {
 }
 
 
-.navigation-list{
-  gap: 40px;
-  display: flex;
-   
 
-}
+  
 .navigation-list-item{
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.header-contact .contact +.contact{
+.header-contact {
   margin-left: 40px;
 }
 .header-contact{
