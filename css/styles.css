@@ -37,7 +37,8 @@ img{
 
 .container{
     width: 1158px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
    }
@@ -169,7 +170,8 @@ color: #4D5AE5;
   color: #ffffff;
 }
 
-.text-title {
+.text-title,
+.text-title-team{
    
   margin-bottom: 8px;
   font-family: 'Roboto', sans-serif;
@@ -179,7 +181,8 @@ color: #4D5AE5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.title-description {
+.title-description,
+.title-description-team {
 
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -189,6 +192,10 @@ color: #4D5AE5;
   color: #434455;
 }
 
+.text-title-team,
+.title-description-team{
+  text-align: center;
+}
 .title {
    margin-bottom: 72px; 
   font-family: 'Roboto', sans-serif;
@@ -380,11 +387,11 @@ body {
 }
 .list{
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
 
 .advantages-list{
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4); 
 }
 
 .footer{
