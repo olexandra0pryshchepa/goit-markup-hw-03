@@ -441,7 +441,10 @@ body {
   display: flex;
  
 }
-
+.list{
+  gap: 24px;
+  display: flex;
+}
 .our-advantages{
   padding-top: 120px; 
   padding-bottom: 120px;
