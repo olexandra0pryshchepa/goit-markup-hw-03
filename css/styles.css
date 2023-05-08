@@ -44,6 +44,7 @@ img{
    }
 
 .link,
+.list,
 .header-contact a,
 .page-logo,
 .header-contact,
@@ -382,10 +383,6 @@ body {
  .section{
     padding-top:120px ;
     padding-bottom:120px ;
-}
-.list{
-    display: flex;
-    gap: 24px;
 }
 
 .advantages-list{
