@@ -438,6 +438,7 @@ body {
 }
 .navigation-list{
   gap: 40px;
+  display: flex;
  
 }
 
