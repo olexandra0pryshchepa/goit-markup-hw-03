@@ -435,16 +435,16 @@ body {
 .site-nav-list{
    justify-content: center;
     margin-bottom: 72px;
+    gap: 24px;
+    display: flex;
+
 }
 .navigation-list{
   gap: 40px;
   display: flex;
  
 }
-.list{
-  gap: 24px;
-  display: flex;
-}
+
 .our-advantages{
   padding-top: 120px; 
   padding-bottom: 120px;
@@ -453,5 +453,14 @@ body {
   padding-bottom: 120px;
 }
 
+.our-advantages-list{
+  display: flex;
+  gap: 24px;
+}
 
+.team-card-list{
+   display: flex;
+  gap: 24px;
+  
+}
 
