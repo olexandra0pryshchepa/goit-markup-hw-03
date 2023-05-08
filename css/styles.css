@@ -464,3 +464,7 @@ body {
   
 }
 
+.section-actions-list{
+  display: flex;
+  gap: 24px;
+}
